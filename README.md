@@ -1,11 +1,22 @@
 # CryptoCompareAPI
 A Java implementation of the [CryptoCompare API service.](https://min-api.cryptocompare.com/)
 
+## Disclamer 
+
+This version of CryptoCompareAPI is not the original one. I duplicate the repository [Josh-McFarlin/CryptoCompareAPI](https://github.com/Josh-McFarlin/CryptoCompareAPI)
+
+But, for my needs I need to improve it and to follow the API updates. Then, I decided to split the project to make it available for everyone.
+
 ## Download
+
+No version avalaible for the moment. You could use the version of Josh McFarlin instead :
 
 [![Release](https://jitpack.io/v/me.joshmcfarlin/CryptoCompareAPI.svg)](https://jitpack.io/#me.joshmcfarlin/CryptoCompareAPI)
 
 #### Gradle
+
+No version avalaible for the moment. You could use the version of Josh McFarlin instead :
+
 ```
 repositories {
     maven { url 'https://jitpack.io' }
@@ -17,6 +28,9 @@ dependencies {
 ```
 
 #### Maven
+
+No version avalaible for the moment. You could use the version of Josh McFarlin instead :
+
 ```xml
 <repositories>
     <repository>
@@ -34,6 +48,9 @@ dependencies {
 ```
 
 ## Usage
+
+No version avalaible for the moment. You could user the version of Josh McFarlin instead :
+
 ```java
 public class Test {
     private CryptoCompareAPI api = new CryptoCompareAPI();
@@ -57,6 +74,8 @@ public class Test {
 An example is provided in the test sources.
 
 ## Documentation
+
+No documentation avalaible for the moment. You could use the version of Josh McFarlin instead :
 
 Documentation is provided at [https://joshmcfarlin.me/CryptoCompareAPI/](https://joshmcfarlin.me/CryptoCompareAPI/)
 
