@@ -7,49 +7,45 @@ This version of CryptoCompareAPI is not the original one. I duplicate the reposi
 
 But, for my needs I need to improve it and to follow the API updates. Then, I decided to split the project to make it available for everyone.
 
-## Download
+## Download 
 
-No version avalaible for the moment. You could use the version of Josh McFarlin instead :
-
-[![Release](https://jitpack.io/v/me.joshmcfarlin/CryptoCompareAPI.svg)](https://jitpack.io/#me.joshmcfarlin/CryptoCompareAPI)
+[![Release](https://jitpack.io/v/Wodric/CryptoCompareAPI.svg)](https://jitpack.io/private#Wodric/CryptoCompareAPI/0.1)
 
 #### Gradle
 
-No version avalaible for the moment. You could use the version of Josh McFarlin instead :
 
 ```
+
 repositories {
-    maven { url 'https://jitpack.io' }
+	...
+	maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-        implementation 'me.joshmcfarlin:CryptoCompareAPI:master-SNAPSHOT'
+    implementation 'com.github.Wodric:CryptoCompareAPI:Tag'
 }
 ```
 
 #### Maven
 
-No version avalaible for the moment. You could use the version of Josh McFarlin instead :
-
 ```xml
 <repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
 </repositories>
 ```
 ```xml
 <dependency>
-    <groupId>me.joshmcfarlin</groupId>
-    <artifactId>CryptoCompareAPI</artifactId>
-    <version>master-SNAPSHOT</version>
+	<groupId>com.github.Wodric</groupId>
+	<artifactId>CryptoCompareAPI</artifactId>
+    <version>0.1</version>
 </dependency>
 ```
 
 ## Usage
 
-No version avalaible for the moment. You could user the version of Josh McFarlin instead :
 
 ```java
 public class Test {
