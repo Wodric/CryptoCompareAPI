@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-	implementation 'com.github.Wodric:CryptoCompareAPI:Tag'
+	implementation 'com.github.Wodric:CryptoCompareAPI:0.2.0'
 }
 ```
 
