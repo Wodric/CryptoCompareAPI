@@ -2,7 +2,6 @@ package me.joshmcfarlin.cryptocompareapi;
 
 import me.joshmcfarlin.cryptocompareapi.Exceptions.InvalidParameterException;
 import me.joshmcfarlin.cryptocompareapi.Exceptions.OutOfCallsException;
-import me.joshmcfarlin.cryptocompareapi.api.*;
 import me.joshmcfarlin.cryptocompareapi.models.coin.CoinList;
 import me.joshmcfarlin.cryptocompareapi.models.exchanges.ExchangeList;
 import me.joshmcfarlin.cryptocompareapi.models.historic.History;
@@ -25,7 +24,7 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.*;
 
 class APITest {
-    private CryptoCompareAPI api = new CryptoCompareAPI();
+    private CryptoCompare api = new CryptoCompare();
 
     @Test
     void shouldReturnValidAPIUsage() throws IOException {

@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Example {
-    private static CryptoCompareAPI api = new CryptoCompareAPI();
+    private static CryptoCompare api = new CryptoCompare();
 
     private static void rateLimitingTest() throws IOException {
         System.out.println("\nRate Limiting APITest:");
