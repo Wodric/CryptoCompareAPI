@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>me.joshmcfarlin</groupId>
 	<artifactId>CryptoCompareAPI</artifactId>
-	<version>0.1</version>
+	<version>0.2.0</version>
 	<packaging>jar</packaging>
 
 	<build>
